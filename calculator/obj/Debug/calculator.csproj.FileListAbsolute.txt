@@ -1,7 +1,0 @@
-C:\Users\Eldo0\OneDrive\画像\Workspace\C#\calculator\calculator\calculator\calculator\bin\Debug\calculator.exe.config
-C:\Users\Eldo0\OneDrive\画像\Workspace\C#\calculator\calculator\calculator\calculator\bin\Debug\calculator.exe
-C:\Users\Eldo0\OneDrive\画像\Workspace\C#\calculator\calculator\calculator\calculator\bin\Debug\calculator.pdb
-C:\Users\Eldo0\OneDrive\画像\Workspace\C#\calculator\calculator\calculator\calculator\obj\Debug\calculator.csprojAssemblyReference.cache
-C:\Users\Eldo0\OneDrive\画像\Workspace\C#\calculator\calculator\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
-C:\Users\Eldo0\OneDrive\画像\Workspace\C#\calculator\calculator\calculator\calculator\obj\Debug\calculator.exe
-C:\Users\Eldo0\OneDrive\画像\Workspace\C#\calculator\calculator\calculator\calculator\obj\Debug\calculator.pdb
