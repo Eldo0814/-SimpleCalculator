@@ -18,13 +18,13 @@ namespace calculator
                 int number1 = 0;
             //言語の選択をする/Select a language
             Console.WriteLine("言語を選択してください/Select a language");
-            Console.WriteLine("1=日本語 2=英語/1=Japanese 2=English");
+            Console.WriteLine("a=日本語 b=英語/a=Japanese b=English");
             switch (Console.ReadLine())
             {
-                case "1":
+                case "a":
                     goto jp;
                     break;
-                case "2":
+                case "b":
                     goto us;
                     break;
             }
@@ -39,22 +39,22 @@ namespace calculator
 
                 //Character drawing for which mode
                 Console.WriteLine("Please enter another number");
-                Console.WriteLine("1=addition 2=subtraction 3=multiplication 4=division");
+                Console.WriteLine("a=addition b=subtraction c=multiplication d=division");
 
                 //Code when calculating
                 //Please select the mode when calculating
                 switch (Console.ReadLine())
                 {
-                    case "1":
+                    case "a":
                         Console.WriteLine(number + number1);
                         break;
-                    case "2":
+                    case "b":
                         Console.WriteLine(number - number1);
                         break;
-                    case "3":
+                    case "c":
                         Console.WriteLine(number * number1);
                         break;
-                    case "4":
+                    case "d":
                         Console.WriteLine(number % number1);
                         break;
                 }
@@ -62,14 +62,14 @@ namespace calculator
                 //Whether to quit or try again
 
                 Console.WriteLine("Whether to quit or try again");
-                Console.WriteLine("1=down 2=tru again");
+                Console.WriteLine("a=down b=tru again");
 
                 switch (Console.ReadLine())
                 {
-                    case "1":
+                    case "a":
                     goto end;
                         break;
-                case "2":
+                case "b":
                     goto us;
                     break;
             }
@@ -84,21 +84,21 @@ namespace calculator
 
             //どのモードにするかの文字描画
             Console.WriteLine("どのモードにするか選択してください");
-            Console.WriteLine("1=足し算 2=引き算 3=掛け算 4=割り算");
+            Console.WriteLine("a=足し算 b=引き算 c=掛け算 d=割り算");
 
             //計算するときのモードを選択してください
             switch (Console.ReadLine())
             {
-                case "1":
+                case "a":
                     Console.WriteLine(number + number1);
                     break;
-                case "2":
+                case "b":
                     Console.WriteLine(number - number1);
                     break;
-                case "3":
+                case "c":
                     Console.WriteLine(number * number1);
                     break;
-                case "4":
+                case "d":
                     Console.WriteLine(number % number1);
                     break;
             }
@@ -110,10 +110,10 @@ namespace calculator
 
             switch (Console.ReadLine())
             {
-                case "1":
+                case "a":
                     goto end;
                     break;
-                case "2":
+                case "b":
                     goto jp;
                     break;
             }
